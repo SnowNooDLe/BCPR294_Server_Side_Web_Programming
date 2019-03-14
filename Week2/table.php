@@ -11,8 +11,8 @@ if(isset($_POST['newValue']) ){
 }
 function gettingArray($max){
     global $numbers;
-    for ($i = 1; $i<=50; $i++){
-        $ii = bcmul($i, '5', 2);
+    for ($i = 1; $i<=$max; $i++){
+        $ii = bcmul($i, '123.21312312412412412412412412412352352423424', 2000);
         $numbers[$i] = $ii;
     }
     return $numbers;
@@ -35,11 +35,13 @@ function gettingArray($max){
     <form action="table.php" method="POST">
     <input type="text" name="newValue"> </input>
     <input type="submit" value="SUBMIT"/>
+    <br>
     <?php
-    echo table_text;
+    
     if ($input == 0){
         echo "Plz put the value";
     } else{
+        echo table_text;
         echo makeTable(gettingArray($input));
     }
     
