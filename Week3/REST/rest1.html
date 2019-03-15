@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="data">
+</div>
+<script>
+var xmlhttp, placeholder;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function () {
+if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+placeholder = xmlhttp.responseText;
+document.getElementById('data').innerHTML = placeholder;
+}
+}
+xmlhttp.open( "GET", 'restDemo.php?', true );
+xmlhttp.send();
+</script>
+</body>
