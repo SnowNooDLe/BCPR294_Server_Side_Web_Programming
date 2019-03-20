@@ -6,11 +6,12 @@
 
     function ReverseString($input){
         $result = "";
-
-        for ($i = $input.length - 1; $i > 0; $i--){
-            $result += $input[$i];
+  
+        $min = strlen($input) - 1;
+  
+        for ($i = $min; $i >= 0; $i--){
+            $result .= $input[$i];
         }
-
         return $result;
 
     }
@@ -36,11 +37,9 @@
         if ($input == ""){
             echo "Plz type something";
         } else {
-            echo "Am I getting anything ?";
-            echo "<br>";
-            echo "$input is the input value <br>";
+            echo "Inserted String is: " .$input. "<br>";
+            echo "The reverse of String " .$input. " is ";
             echo ReverseString($input);
-            echo "Is the result";
         }
         
     ?>
