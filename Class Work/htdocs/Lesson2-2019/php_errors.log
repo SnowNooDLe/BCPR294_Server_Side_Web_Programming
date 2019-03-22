@@ -1,0 +1,7 @@
+[07-Mar-2019 09:24:34 UTC] PHP Notice:  Undefined offset: 0 in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemos.php on line 40
+[07-Mar-2019 09:24:35 UTC] PHP Notice:  Undefined offset: 4 in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemos.php on line 40
+[07-Mar-2019 09:24:35 UTC] PHP Notice:  Undefined offset: 5 in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemos.php on line 40
+[07-Mar-2019 09:37:16 UTC] PHP Notice:  Array to string conversion in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemo2019.php on line 3
+[07-Mar-2019 09:40:13 UTC] PHP Notice:  Undefined variable: arr in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemo2019.php on line 13
+[07-Mar-2019 09:43:33 UTC] PHP Notice:  Undefined variable: arr in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemo2019.php on line 13
+[07-Mar-2019 09:54:52 UTC] PHP Parse error:  syntax error, unexpected '$colors' (T_VARIABLE) in \\Tutors\Home\SarkarA\apache24\htdocs\Lesson2-2019\arrayDemo12019.php on line 33

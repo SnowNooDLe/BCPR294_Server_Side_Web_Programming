@@ -1,0 +1,18 @@
+[07-Mar-2018 22:25:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getMobile() in H:\apache24\htdocs\REST\mobile.php:43
+Stack trace:
+#0 {main}
+  thrown in H:\apache24\htdocs\REST\mobile.php on line 43
+[07-Mar-2018 22:26:48 UTC] PHP Parse error:  syntax error, unexpected ';' in H:\apache24\htdocs\REST\mobile.php on line 45
+[07-Mar-2018 22:27:20 UTC] PHP Notice:  Undefined variable: mobile in H:\apache24\htdocs\REST\mobile.php on line 43
+[07-Mar-2018 22:27:20 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in H:\apache24\htdocs\REST\mobile.php on line 43
+[07-Mar-2018 22:28:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getAllMobile() in H:\apache24\htdocs\REST\mobile.php:43
+Stack trace:
+#0 {main}
+  thrown in H:\apache24\htdocs\REST\mobile.php on line 43
+[07-Mar-2018 22:29:17 UTC] PHP Parse error:  syntax error, unexpected '$answer' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in H:\apache24\htdocs\REST\mobile.php on line 41
+[07-Mar-2018 22:31:00 UTC] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) or const (T_CONST) in H:\apache24\htdocs\REST\mobile.php on line 32
+[07-Mar-2018 22:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getAllMobile() in H:\apache24\htdocs\REST\mobile.php:43
+Stack trace:
+#0 {main}
+  thrown in H:\apache24\htdocs\REST\mobile.php on line 43
+[08-Mar-2018 19:09:10 UTC] PHP Notice:  Undefined index: SCRIPT_URI in H:\apache24\htdocs\REST\restDemo.php on line 14
