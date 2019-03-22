@@ -1,0 +1,36 @@
+Must have features for both Gaming Community & Hindi Language learning Community
+1. Login (Authentication):
+    If User ID and Password matches with data in database
+    -> Main page with logged in details
+    
+    If either User ID or Password doesn't match
+    -> Popup the warning message to user that details are not correct.
+    
+    If User ID is not in database
+    -> Popup the warning message saying that this ID hasn't be registered'
+
+
+Features for Gaming Community
+1. Searching post with keywords.
+    So, there will be a place where users can post to share information, users can search certain posts
+    by searching with keywords, 
+    1. Keyword for Title
+    2. Keyword for Content
+    3. Keyword for Title + Content
+    4. Keyword for Author (User ID if you remember)
+
+2. Bookmark the post
+    If users find any good posts they want to keep it, by clicking 'Bookmark' at the bottom of the post,
+    it will be stored into logged-in users' bookcmark tab that they can access whenever they want
+    to read it again.
+
+
+Features for Hindi Language Learning Community
+1. Recommened users with the same ethnicity to a user as a connection
+    1. on the top right corner (can go somewhere else), people with same ethnicity will be displayed to recommened to users as a connection
+    (As doing something to)
+    2. Potentially meet a person offline to study together.
+
+2. The highlighted post will stay at the top like the notice, rule for the group by admin
+    1. When Admin posts something, it will stay at the top regardless number of posts.
+    2. When user's post get more than certain number of likes(So potentially, doing Like or Dislike is another feature to be added), will stay at the top as highlighted post.
