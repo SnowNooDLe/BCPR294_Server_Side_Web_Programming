@@ -48,66 +48,47 @@
     </nav>
     
     <main>
-        <!-- List of posts div -->
-        <div class="row justify-content-md-center">
-            <div class="col"></div>
-            <div class="col-7">
-                <div class="d-flex justify-content-center">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr class="d-flex">
-                                <th scope="col" class="col-1">#</th>
-                                <th scope="col" class="col-5">Title</th>
-                                <th scope="col" class="col-2">Author</th>
-                                <th scope="col" class="col-2">Date</th>
-                                <th scope="col" class="col-2">Likes</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="d-flex">
-                                <th scope="row" class="col-1">1</th>
-                                <td class="col-5"><a href="sample_post.html">This</a></td>
-                                <td class="col-2">A</td>
-                                <td class="col-2">06/04/2019</td>
-                                <td class="col-2">5</td>
-                            </tr>
-                            <tr class="d-flex">
-                                <th scope="row" class="col-1">1</th>
-                                <td class="col-5"><a href="sample_post.html">is</a></td>
-                                <td class="col-2">B</td>
-                                <td class="col-2">06/04/2019</td>
-                                <td class="col-2">4</td>
-                            </tr>
-                            <tr class="d-flex">
-                                <th scope="row" class="col-1">1</th>
-                                <td class="col-5"><a href="sample_post.html">a Mock up</a></td>
-                                <td class="col-2">C</td>
-                                <td class="col-2">06/04/2019</td>
-                                <td class="col-2">5</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <!-- Readable post area -->
+        <div id="postTitle">
+            <div class="row justify-content-md-center">
+                <div class="col"></div>
+                <div class="col-7">
+                    <div class="d-flex justify-content-center">
+                        <div id="eachPostTitle">
+                            <h2>Title will be sitting here</h2>
+                        </div>
+                    </div>
                 </div>
+                <div class="col"></div>
             </div>
-            <div class="col"></div>
+        </div>
+        <div id="postContent">
+            <div class="row justify-content-md-center">
+                <div class="col"></div>
+                <div class="col-7">
+                    <div class="d-flex justify-content-center">
+                        <div id="eachPostContent">
+                            <p>Content will be sitting here</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
 
-        <!-- Search area -->
-        <div class="row justify-content-md-center">
-            <div class="col"></div>
-            <div class="col-7">
-                <div class="d-flex justify-content-center">
-                    <select class="form-control-button" id="sel1">
-                        <option>Title</option>
-                        <option>Author</option>
-                    </select>
-
-                    <input type="text" class="form-control" id="specific_search">
-                    
-                    <button type="button" class="btn btn-outline-primary"><a href="placeholder.html">Search</a></button>
+        <div id="likes">
+            <div class="row justify-content-md-center">
+                <div class="col"></div>
+                <div class="col-7">
+                    <div class="d-flex justify-content-center">
+                        <button id="likeImage"><img src="../images/like.jpg"></button>
+                        <div id="likeCountParent">
+                            <p id="likeCountChild">+1</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col"></div>
             </div>
-            <div class="col"></div>
         </div>
     </main>
 </body>
