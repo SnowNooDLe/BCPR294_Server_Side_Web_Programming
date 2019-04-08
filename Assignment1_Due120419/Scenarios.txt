@@ -15,22 +15,13 @@ Features for Gaming Community
     So, there will be a place where users can post to share information, users can search certain posts
     by searching with keywords, 
     1. Keyword for Title
-    2. Keyword for Content
-    3. Keyword for Title + Content
-    4. Keyword for Author (User ID if you remember)
+    2. Keyword for Author (User ID if you remember)
 
-2. Bookmark the post
-    If users find any good posts they want to keep it, by clicking 'Bookmark' at the bottom of the post,
-    it will be stored into logged-in users' bookcmark tab that they can access whenever they want
-    to read it again.
-
+2. Like the post
+    If users find the post contains good information / like the post for some reasons, they can give like for each post.
 
 Features for Hindi Language Learning Community
-1. Recommened users with the same ethnicity to a user as a connection
-    1. on the top right corner (can go somewhere else), people with same ethnicity will be displayed to recommened to users as a connection
-    (As doing something to)
-    2. Potentially meet a person offline to study together.
+1. Writing a post
+    User can write a post
+   
 
-2. The highlighted post will stay at the top like the notice, rule for the group by admin
-    1. When Admin posts something, it will stay at the top regardless number of posts.
-    2. When user's post get more than certain number of likes(So potentially, doing Like or Dislike is another feature to be added), will stay at the top as highlighted post.
