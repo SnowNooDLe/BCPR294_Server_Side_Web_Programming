@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Baghchal Gaming Community !</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="bgContent">
+        <header>
+            <!-- Headlink -->
+            <div class="d-flex justify-content-end">
+                <div class="btn-group" role="group" aria-label="Tabs for signup">
+                    <button type="button" class="btn btn-secondary btn-sm"><a href="index.html">Welcome Tom</a></button>
+                </div> 
+            </div>
+            <!-- Headlink Finishes -->
+
+            <!-- Title -->
+            <div class="row justify-content-md-center">
+                <div class="col"></div>
+                <div class="col-8">
+                    <div class="d-flex justify-content-center">
+                    <p id="title">Baghchal Gaming Community</p>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <!-- Title Finishes -->
+        </header>
+        
+        <main>
+            <!-- Write button div -->
+            <div class="writeButton">
+                <div class="row justify-content-md-center">
+                    <div class="col"></div>
+                    <div class="col-8">
+                        <div class="d-flex flex-row-reverse">
+                            <button type="button" class="btn btn-outline-primary"><a href="Write.html">Write</a></button>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- Write button div finishes -->
+
+            <!-- List of posts div -->
+            <div class="listPosts">
+                <div class="row justify-content-md-center">
+                    <div class="col"></div>
+                    <div class="col-1">
+                        <!-- Nav buttons -->
+                        <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary"><a href="placeholder.html">Home</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="placeholder.html">News</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="logged_in.html">Forum</a></button>
+                        </div>
+                        <!-- Nav buttons finishes -->
+                    </div>
+                    <!-- Actual posts -->
+                    <div class="col-7">
+                        <div class="d-flex justify-content-center">
+                            <table class="table">
+                                <!-- where Title, Author, Date...etcs are -->
+                                <thead class="thead-dark">
+                                    <tr class="d-flex">
+                                        <th scope="col" class="col-1">#</th>
+                                        <th scope="col" class="col-5">Title</th>
+                                        <th scope="col" class="col-2">Author</th>
+                                        <th scope="col" class="col-2">Date</th>
+                                        <th scope="col" class="col-2">Likes</th>
+                                    </tr>
+                                </thead>
+                                <!-- where Title, Author, Date...etcs are Finishes--> 
+                                <!-- Actual list of posts, will get those from DB later -->
+                                <tbody>
+                                    <tr class="d-flex">
+                                        <th scope="row" class="col-1">3</th>
+                                        <td class="col-5"><a href="sample_post.html">This</a></td>
+                                        <td class="col-2">A</td>
+                                        <td class="col-2">06/04/2019</td>
+                                        <td class="col-2">5</td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <th scope="row" class="col-1">2</th>
+                                        <td class="col-5"><a href="sample_post.html">is</a></td>
+                                        <td class="col-2">B</td>
+                                        <td class="col-2">06/04/2019</td>
+                                        <td class="col-2">4</td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <th scope="row" class="col-1">1</th>
+                                        <td class="col-5"><a href="sample_post.html">a Mock up</a></td>
+                                        <td class="col-2">C</td>
+                                        <td class="col-2">06/04/2019</td>
+                                        <td class="col-2">5</td>
+                                    </tr>
+                                </tbody>
+                                <!-- Actual list of posts finishes -->
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Posts finishes -->
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- List of posts div Finishes -->
+            
+            <!-- Search area -->
+            <div class="searchArea">
+                <div class="row justify-content-md-center">
+                    <div class="col"></div>
+                    <div class="col-8">
+                        <div class="d-flex justify-content-center">
+                            <select class="form-control-button" id="sel1">
+                                <option>Title</option>
+                                <option>Author</option>
+                            </select>
+        
+                            <input type="text" class="form-control" id="specific_search">
+                            <button type="button" class="btn btn-outline-primary"><a href="placeholder.html">Search</a></button>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- Search area finishes -->
+        </main>
+    </div>
+    
+</body>
+</html>

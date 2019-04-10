@@ -1,0 +1,112 @@
+DROP TABLE `Post`;
+
+CREATE TABLE `Post` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `postNum` mediumint,
+  `postTitle` TEXT default NULL,
+  `postContent` TEXT default NULL,
+  `postDate` varchar(255),
+  `noOfLikes` mediumint default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (1,"in faucibus orci luctus et ultrices posuere cubilia","erat neque non quam. Pellentesque habitant","19-11-12",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (2,"ac urna. Ut tincidunt vehicula risus. Nulla eget","turpis. Nulla aliquet. Proin velit. Sed malesuada augue","19-04-25",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (3,"Integer vitae nibh. Donec est","lacinia vitae, sodales","19-07-27",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (4,"sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in,","metus facilisis","18-08-04",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (5,"nunc nulla vulputate dui, nec tempus mauris erat","quam vel sapien imperdiet ornare. In faucibus.","18-04-24",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (6,"ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu.","blandit.","19-10-16",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (7,"accumsan laoreet ipsum. Curabitur consequat, lectus","feugiat tellus","18-07-09",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (8,"non magna. Nam ligula","dui augue eu tellus. Phasellus elit pede, malesuada","20-01-12",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (9,"Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac","nisi","19-05-18",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (10,"mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut","Morbi metus. Vivamus euismod","18-11-28",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (11,"Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes,","leo. Vivamus nibh dolor, nonummy ac, feugiat non,","19-07-02",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (12,"risus. Quisque","Class aptent taciti","18-06-18",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (13,"purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie","tellus justo sit amet nulla. Donec non justo. Proin non","18-05-08",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (14,"orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare","Donec tempor, est ac","19-09-07",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (15,"metus. In","amet","18-09-27",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (16,"nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare","egestas. Duis ac arcu. Nunc mauris. Morbi non sapien","19-07-29",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (17,"aliquet, metus urna convallis erat, eget tincidunt dui","dictum magna. Ut tincidunt orci quis lectus.","18-09-04",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (18,"lorem,","in, cursus et, eros.","18-09-10",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (19,"facilisi. Sed neque. Sed eget lacus.","malesuada vel, convallis in, cursus et, eros.","19-01-01",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (20,"nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh","fermentum vel, mauris. Integer sem elit,","19-03-25",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (21,"bibendum fermentum metus. Aenean","consequat enim diam vel arcu. Curabitur ut odio vel","19-08-11",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (22,"Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non,","Curabitur dictum. Phasellus in felis. Nulla tempor augue","20-03-25",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (23,"eu turpis. Nulla aliquet. Proin velit.","felis ullamcorper viverra. Maecenas iaculis","19-10-25",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (24,"vitae mauris","nisi. Cum sociis natoque","18-04-09",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (25,"tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris,","nonummy ultricies ornare, elit elit fermentum","19-02-18",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (26,"Donec","inceptos","18-05-09",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (27,"sem molestie sodales. Mauris blandit enim","vulputate, risus a ultricies adipiscing, enim mi","19-12-26",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (28,"id, blandit at, nisi.","luctus, ipsum leo elementum sem, vitae aliquam","19-05-01",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (29,"Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris","mauris ipsum","18-07-31",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (30,"ultrices sit amet, risus. Donec nibh enim, gravida sit","vulputate eu,","18-08-20",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (31,"elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit","posuere at, velit. Cras lorem lorem,","19-04-19",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (32,"eget metus eu erat semper","feugiat metus sit amet","19-06-01",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (33,"mollis. Duis sit amet diam eu dolor","et ultrices posuere cubilia Curae; Donec","18-11-21",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (34,"ut quam vel sapien imperdiet ornare. In","ornare, lectus","19-03-06",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (35,"natoque penatibus et magnis dis parturient montes,","Sed eu nibh vulputate mauris sagittis","18-08-16",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (36,"eu dolor","Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus.","19-05-27",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (37,"magna tellus faucibus leo, in lobortis tellus justo sit amet","non, cursus non,","19-09-19",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (38,"porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo","nibh. Phasellus nulla.","18-07-05",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (39,"hendrerit neque. In ornare sagittis felis. Donec tempor,","amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet","18-10-04",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (40,"ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus.","nascetur","19-01-23",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (41,"nunc sed pede.","arcu. Nunc mauris.","19-07-16",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (42,"interdum. Sed auctor odio a","nunc, ullamcorper eu, euismod ac, fermentum vel, mauris.","20-04-08",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (43,"Fusce dolor quam,","Aenean euismod mauris eu elit. Nulla","19-07-14",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (44,"massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam","luctus ut, pellentesque eget, dictum placerat, augue. Sed","18-06-10",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (45,"primis in","diam. Pellentesque habitant morbi tristique","18-04-15",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (46,"risus.","sagittis. Duis gravida. Praesent","20-03-19",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (47,"pharetra sed, hendrerit a, arcu. Sed et libero. Proin","pharetra","18-05-24",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (48,"Donec fringilla. Donec feugiat metus sit amet ante.","tellus.","18-11-13",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (49,"elit. Etiam laoreet, libero et tristique pellentesque, tellus","ipsum ac mi eleifend egestas.","19-01-22",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (50,"rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at,","semper et, lacinia vitae,","19-12-15",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (51,"nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci","in, dolor. Fusce feugiat. Lorem ipsum dolor sit amet,","19-11-11",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (52,"a","Phasellus","19-10-31",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (53,"pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus","arcu. Vestibulum ante ipsum","19-07-25",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (54,"egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam","Nam tempor diam dictum sapien. Aenean massa. Integer vitae nibh.","19-03-02",9);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (55,"ultrices","sollicitudin a, malesuada id, erat. Etiam","18-06-14",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (56,"tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem,","sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam","18-05-20",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (57,"at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin","commodo ipsum. Suspendisse non","20-03-30",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (58,"tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis","nisl. Maecenas","20-02-03",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (59,"mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta","scelerisque sed, sapien.","18-06-06",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (60,"Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum","mus. Donec dignissim magna a","19-04-05",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (61,"mi enim, condimentum eget, volutpat","nec","19-12-02",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (62,"imperdiet, erat nonummy ultricies ornare, elit","eu dui.","18-10-13",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (63,"lectus, a","Aliquam adipiscing lobortis risus. In","19-07-16",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (64,"et tristique pellentesque, tellus sem mollis dui, in sodales elit erat","et, rutrum non, hendrerit id, ante. Nunc mauris","19-10-18",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (65,"scelerisque mollis. Phasellus libero mauris, aliquam","molestie. Sed id risus quis","19-01-07",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (66,"metus vitae velit egestas lacinia. Sed congue, elit sed","dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu","19-07-26",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (67,"bibendum ullamcorper. Duis cursus, diam at pretium","egestas a, dui. Cras pellentesque. Sed dictum. Proin","19-03-16",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (68,"egestas, urna justo faucibus","nec, mollis vitae, posuere","19-01-02",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (69,"enim. Curabitur massa.","habitant morbi tristique senectus et netus et malesuada fames ac","18-09-01",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (70,"Phasellus dapibus quam quis diam.","dictum magna. Ut","19-04-17",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (71,"id nunc interdum feugiat. Sed nec metus","aliquet magna a neque. Nullam ut nisi","18-10-13",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (72,"mauris, rhoncus id, mollis nec, cursus a,","imperdiet ornare. In faucibus. Morbi","19-09-01",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (73,"viverra. Donec tempus, lorem fringilla ornare","In at pede. Cras vulputate velit eu sem. Pellentesque","19-07-10",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (74,"amet orci. Ut sagittis lobortis","neque","19-08-25",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (75,"nec, mollis vitae,","Pellentesque habitant morbi tristique senectus","19-06-20",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (76,"nibh. Aliquam ornare, libero at","tristique pharetra. Quisque","18-05-24",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (77,"semper, dui lectus rutrum urna, nec luctus felis","Aliquam nec enim.","20-02-10",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (78,"lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum","tempor, est ac","18-07-09",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (79,"hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum","gravida non, sollicitudin a, malesuada id, erat. Etiam","19-02-16",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (80,"urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus","laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate,","19-05-04",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (81,"orci, consectetuer euismod est arcu ac","Proin sed turpis nec mauris blandit mattis. Cras eget nisi","18-04-25",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (82,"odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus.","nec,","20-02-24",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (83,"tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor.","ac mattis ornare, lectus ante dictum mi, ac","19-04-22",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (84,"cursus a, enim. Suspendisse aliquet, sem","mus. Proin","19-02-28",4);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (85,"in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus.","mi enim, condimentum eget, volutpat ornare, facilisis","19-03-24",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (86,"lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare,","quis accumsan convallis, ante lectus convallis est, vitae","18-05-04",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (87,"non quam. Pellentesque habitant","Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem,","18-10-03",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (88,"enim. Suspendisse aliquet, sem ut","Sed dictum. Proin eget","19-03-13",10);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (89,"ullamcorper, velit in aliquet","mi, ac mattis velit justo nec ante. Maecenas","18-08-02",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (90,"nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus.","bibendum.","18-12-27",2);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (91,"pede.","Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem","20-04-02",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (92,"eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem","nisi. Cum sociis natoque penatibus et magnis","20-02-15",8);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (93,"sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere,","vel arcu. Curabitur ut odio vel est tempor bibendum. Donec","19-12-07",7);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (94,"In condimentum. Donec at arcu. Vestibulum ante ipsum primis in faucibus","consectetuer euismod est","18-08-29",5);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (95,"et netus","sit amet","19-06-26",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (96,"nec enim. Nunc","Proin vel arcu eu odio tristique","18-07-16",6);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (97,"Integer eu","ultrices, mauris ipsum porta","19-09-03",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (98,"consequat, lectus sit","vel, vulputate eu, odio. Phasellus at augue id ante","19-06-20",1);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (99,"libero est, congue a,","mauris, rhoncus id, mollis nec, cursus a, enim.","19-07-06",3);
+INSERT INTO `Post` (`postNum`,`postTitle`,`postContent`,`postDate`,`noOfLikes`) VALUES (100,"eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum","consectetuer mauris id sapien. Cras dolor","19-02-28",1);
